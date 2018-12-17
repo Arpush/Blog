@@ -98,12 +98,14 @@
 }
 
 .nav_types li a:hover{
-  text-shadow:  2px 0 3px red;
+  text-shadow:  2px 0 3px;
 }
 
 .navBar_toggle{
   display: none;
 }
+
+
 
 @media only screen and (min-width: 320px) and (max-width:599px){
 
@@ -160,26 +162,18 @@
     top: 10px;
     right: 10px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     z-index: 1;
     width: 35%;
     text-align: center;
     display: block;
   }
 
+
   .nav_links{
-    width: 25%;
-    height: 100%;
-    list-style-type: none;
     display: none;
-    justify-content:space-around;
-    align-items: center;
   }
 
-  .nav_links li a{
-    color: lightgrey;
-    font-size: 12px;
-  }
 
   .nav_types{
     display:none;
